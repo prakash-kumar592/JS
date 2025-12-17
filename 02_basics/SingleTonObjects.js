@@ -59,8 +59,22 @@ const obj5 = {...obj1,...obj2}
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('name'))
+// console.log(tinderUser.hasOwnProperty('name'))
 
+
+const course = {
+    cousename: "js",
+    price: "999",
+    courseteacher: "hitesh"
+}
+
+// console.log(course.price)
+
+// const {courseteacher} = course//without using dot operator we will print
+// console.log(courseteacher)
+//OR
+const {courseteacher: instructor} = course//without using dot operator we will print
+console.log(instructor)
 
 
 

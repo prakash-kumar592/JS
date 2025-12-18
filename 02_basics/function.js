@@ -35,3 +35,45 @@ const result = addTwoNumbers(3,4)
 // }
 // console.log(loginUserMessage())//without any passing any argument
 
+// function CalculateCartPrice(...num1){//three dot represents rest operator it converts passing value in to arrays
+//    return num1
+// }
+// console.log(CalculateCartPrice(200, 400, 500))
+
+
+//passing objects in to functions
+
+// const user = {
+//    username: "prakash",
+//    price: "200"
+// }
+
+// function handleObject(anyobject){
+//    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+// }
+//handleObject(user)
+// handleObject({
+//    username: "sam",
+//    price: 200
+// })
+
+//passing array in to functions
+
+const mynewarray = [200, 400, 100, 600]
+
+function returnsecondvalue(getarray){
+   return getarray[2]
+}
+//console.log(returnsecondvalue(mynewarray))
+console.log(returnsecondvalue([200, 300, 400 ,500]))
+
+
+
+
+
+
+
+
+
+
+
